@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Flexbox</title>
+</head>
+
+<body>
+    <!--Making a child class occupy its auto space-->
+    <div class="container">
+        <form action="">
+            <div class="form-row">
+                <label for="name">Name:</label>
+                <input type="text" id="name">
+            </div>
+            <div class="form-row">
+                <label for="favColor">Favorite Color:</label>
+                <input type="text" id="favColor">
+            </div>
+        </form>
+    </div>
+
+    <!--Sharing the space between each of the children in a class using flex: 1 or any required number-->
+    <div class="column-layout">
+        <div class="main-column">
+            <h2>Main Column</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus accusamus fuga modi obcaecati,
+                temporibus fugit velit vel minima autem illo dolore tenetur. Obcaecati cupiditate architecto numquam
+                doloremque corporis ducimus dignissimos?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus accusamus fuga modi obcaecati,
+                temporibus fugit velit vel minima autem illo dolore tenetur. Obcaecati cupiditate architecto numquam
+                doloremque corporis ducimus dignissimos?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus accusamus fuga modi obcaecati,
+                temporibus fugit velit vel minima autem illo dolore tenetur. Obcaecati cupiditate architecto numquam
+                doloremque corporis ducimus dignissimos?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus accusamus fuga modi obcaecati,
+                temporibus fugit velit vel minima autem illo dolore tenetur. Obcaecati cupiditate architecto numquam
+                doloremque corporis ducimus dignissimos?</p>
+        </div>
+
+        <div class="sidebar-one">
+            <h3>Sidebar One</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni quam perferendis soluta amet ea
+                asperiores? Placeat consectetur, nisi distinctio consequatur illo accusantium ipsum ipsam minima esse.
+                Voluptate doloribus consequuntur laboriosam.</p>
+        </div>
+
+        <div class="sidebar-two">
+            <h3>Sidebar Two</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni quam perferendis soluta amet ea
+                asperiores? Placeat consectetur, nisi distinctio consequatur illo accusantium ipsum ipsam minima esse.
+                Voluptate doloribus consequuntur laboriosam.</p>
+        </div>
+    </div>
+    <!--Adding margins between the three layouts in a flexbox-->
+
+    <div class="call-outs-container">
+        <div class="call-out">
+            <h4>Feature 1</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis sed voluptates maiores nobis impedit totam
+                ut, iusto obcaecati. Pariatur rerum possimus ut incidunt nesciunt magnam. Aliquam doloremque nam magni
+                aliquid.</p>
+        </div>
+
+        <div class="call-out">
+            <h4>Feature 2</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis sed voluptates maiores nobis impedit totam
+                ut, iusto obcaecati.</p>
+        </div>
+
+        <div class="call-out">
+            <h4>Feature 3</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+    </div>
+
+    <div class="fixed-size-container">
+        <div class="fixed-size">
+            <h2>1</h2>
+        </div>
+        <div class="fixed-size">
+            <h2>2</h2>
+        </div>
+        <div class="fixed-size">
+            <h2>3</h2>
+        </div>
+        <div class="fixed-size">
+            <h2>4</h2>
+        </div>
+        <div class="fixed-size">
+            <h2>5</h2>
+        </div>
+        <div class="fixed-size">
+            <h2>6</h2>
+        </div>
+    </div>
+
+    <div class="dark-part-container">
+        <div class="dark-part">
+            <h3>Center me please</h3>
+        </div>
+    </div>
+
+    <div class="last-part-container">
+        <div class="first">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos debitis facilis ullam dolorum eligendi quam
+                excepturi ab aliquam beatae. Ratione blanditiis voluptate quo reiciendis cupiditate vel obcaecati
+                repellat voluptatum magni.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos debitis facilis ullam dolorum eligendi quam
+                excepturi ab aliquam beatae. Ratione blanditiis voluptate quo reiciendis cupiditate vel obcaecati
+                repellat voluptatum magni.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos debitis facilis ullam dolorum eligendi quam
+                excepturi ab aliquam beatae. Ratione blanditiis voluptate quo reiciendis cupiditate vel obcaecati
+                repellat voluptatum magni.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos debitis facilis ullam dolorum eligendi quam
+                excepturi ab aliquam beatae. Ratione blanditiis voluptate quo reiciendis cupiditate vel obcaecati
+                repellat voluptatum magni.</p>
+        </div>
+        <div class="second">
+            <div class="second-a">A</div>
+            <div class="second-b">B</div>
+        </div>
+
+    </div>
+</body>
+
+</html>

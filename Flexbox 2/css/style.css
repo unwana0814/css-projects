@@ -1,0 +1,118 @@
+.title span{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 0.2em;
+    font-size: 15px;
+}
+
+.title {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    text-align: center;
+}
+
+.item{
+    /* flex-basis: 200px; */
+    padding: 20px;
+    background-color: #fff;
+    height: 30px;
+    max-width: 30px;
+    margin: 5px;
+    /* box-shadow: #000 1em; */
+    border-radius: 3px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    color: #000;
+    flex: 1 0 200px;
+}
+
+/*Flex-grow used to enlarge/increase the size of an item*/
+/*Flex-shrink used to shrink (reduce/decrease) items together at an enven rate*/
+/*Flex-basis used to manage the space around the items, its only works with max-width and min-width*/
+/*Shortest way to present the grow, shrink and basis is Flex: 1 0 200px*/
+
+/* .one{
+    order: 1;
+    flex-grow: 1;
+    flex-shrink: 1;
+} */
+
+/* .two{
+    order: 1;
+    flex-grow: 1;
+    flex-shrink: 1;
+} */
+
+.three{
+    /* order: 1;
+    flex-grow: 1;
+    flex-shrink: 1; */
+    align-self: flex-start;
+}
+
+/* .four{
+    order: 1;
+    flex-grow: 1;
+    flex-shrink: 1;
+} */
+
+#container{
+    width: 800px;
+    height: 400px;
+    background-color: #4524fb;
+    margin: 80px auto;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: flex-start;
+}
+
+.img{
+    border-radius: 10px;
+}
+
+#imgcontainer{
+    background-image: linear-gradient(to bottom right, #007adf 0%, #00ecbe 100%);
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#outer{
+    text-align: center;
+}
+
+.info{
+    width: 400px;
+    height: 200px;
+    margin: 0 auto;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+}
+
+.info p{
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+}
+/* 
+.info span{
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff; */
+
+    /* line-height: 1px; */
